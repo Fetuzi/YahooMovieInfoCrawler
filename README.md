@@ -5,3 +5,10 @@
 - Scrapy
 - urllib2
 - MySQLdb
+
+# Database
+- Movie
+- Area
+- Theater
+- PhoneNumber
+- ShowTimes
