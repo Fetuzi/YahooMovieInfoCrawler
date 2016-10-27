@@ -98,10 +98,10 @@ def main():
         else:
           
           try:
-            DBModifier.InsertToDatabase('MovieTime', movies[movieId], areas[area]
+            DBModifier.InsertToDatabase('MovieInfo', movies[movieId], areas[area]
               , crawled_movieTheater[k], crawled_movieTheater_number[k], time) 
           except:
-            DBModifier.InsertToDatabase('MovieTime', movies[movieId], areas[area]
+            DBModifier.InsertToDatabase('MovieInfo', movies[movieId], areas[area]
               , crawled_movieTheater[k], 'None', time)   
 
   DBModifier.disconnection()
