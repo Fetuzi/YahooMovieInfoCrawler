@@ -6,6 +6,9 @@
 - urllib2
 - MySQLdb
 
+# Usage
+python yahoo_MovieInfo_crawler.py
+
 # Database
 - Movie
 - Area
